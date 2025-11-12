@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="r" attr.type="int" for="node" id="r"/>
+    <key attr.name="g" attr.type="int" for="node" id="g"/>
+    <key attr.name="b" attr.type="int" for="node" id="b"/>
+    <key attr.name="x" attr.type="float" for="node" id="x"/>
+    <key attr.name="y" attr.type="float" for="node" id="y"/>
+    <key attr.name="size" attr.type="float" for="node" id="size"/>
+    <key attr.name="Sex" attr.type="string" for="node" id="sex"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <key attr.name="Modularity Class" attr.type="int" for="node" id="modularity_class"/>
+    <graph edgedefault="undirected">
+        <node id="darja_ivanovna">
+            <data key="label">Дарья Ивановна</data>
+            <data key="sex">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3082</data>
+            <data key="modularity_class">0</data>
+            <data key="size">20.0</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">277.55057</data>
+            <data key="y">214.94383</data>
+        </node>
+        <node id="misha">
+            <data key="label">Миша</data>
+            <data key="sex">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">667</data>
+            <data key="modularity_class">0</data>
+            <data key="size">12.087156</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">0.18575968</data>
+            <data key="y">0.18138643</data>
+        </node>
+        <node id="stupendev">
+            <data key="label">Ступендьев</data>
+            <data key="sex">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1340</data>
+            <data key="modularity_class">0</data>
+            <data key="size">14.292267</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">-277.56616</data>
+            <data key="y">-214.94188</data>
+        </node>
+        <node id="vasilevna">
+            <data key="label">Васильевна</data>
+            <data key="sex">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+            <data key="modularity_class">0</data>
+            <data key="size">10.062254</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">-47.66885</data>
+            <data key="y">348.1617</data>
+        </node>
+        <node id="apollon">
+            <data key="label">Аполлон</data>
+            <data key="sex">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+            <data key="modularity_class">0</data>
+            <data key="size">10.006553</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">-325.3922</data>
+            <data key="y">132.95227</data>
+        </node>
+        <node id="lakej">
+            <data key="label">Лакей</data>
+            <data key="sex">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+            <data key="modularity_class">0</data>
+            <data key="size">10.0</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">325.72305</data>
+            <data key="y">-133.4266</data>
+        </node>
+        <node id="graf_ljubin">
+            <data key="label">Граф Любин</data>
+            <data key="sex">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2427</data>
+            <data key="modularity_class">0</data>
+            <data key="size">17.853867</data>
+            <data key="r">169</data>
+            <data key="g">156</data>
+            <data key="b">136</data>
+            <data key="x">47.167763</data>
+            <data key="y">-347.87064</data>
+        </node>
+        <edge id="darja_ivanovna|misha" source="darja_ivanovna" target="misha">
+            <data key="weight">9.0</data>
+        </edge>
+        <edge id="darja_ivanovna|stupendev" source="darja_ivanovna" target="stupendev">
+            <data key="weight">13.0</data>
+        </edge>
+        <edge id="darja_ivanovna|vasilevna" source="darja_ivanovna" target="vasilevna">
+            <data key="weight">3.0</data>
+        </edge>
+        <edge id="darja_ivanovna|lakej" source="darja_ivanovna" target="lakej">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="darja_ivanovna|graf_ljubin" source="darja_ivanovna" target="graf_ljubin">
+            <data key="weight">9.0</data>
+        </edge>
+        <edge id="darja_ivanovna|apollon" source="darja_ivanovna" target="apollon">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="misha|stupendev" source="misha" target="stupendev">
+            <data key="weight">7.0</data>
+        </edge>
+        <edge id="misha|graf_ljubin" source="misha" target="graf_ljubin">
+            <data key="weight">3.0</data>
+        </edge>
+        <edge id="misha|apollon" source="misha" target="apollon">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="misha|vasilevna" source="misha" target="vasilevna">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="stupendev|vasilevna" source="stupendev" target="vasilevna">
+            <data key="weight">3.0</data>
+        </edge>
+        <edge id="stupendev|apollon" source="stupendev" target="apollon">
+            <data key="weight">3.0</data>
+        </edge>
+        <edge id="stupendev|lakej" source="stupendev" target="lakej">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="stupendev|graf_ljubin" source="stupendev" target="graf_ljubin">
+            <data key="weight">6.0</data>
+        </edge>
+        <edge id="vasilevna|apollon" source="vasilevna" target="apollon">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="vasilevna|graf_ljubin" source="vasilevna" target="graf_ljubin">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="apollon|graf_ljubin" source="apollon" target="graf_ljubin">
+            <data key="weight">1.0</data>
+        </edge>
+    </graph>
+</graphml>
